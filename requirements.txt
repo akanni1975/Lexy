@@ -1,4 +1,9 @@
+pip>=24.2
+setuptools>=70
+wheel>=0.44
+
 streamlit==1.36.0
-pandas==2.2.2
-openpyxl==3.1.2
-Pillow==10.3.0
+numpy==2.0.2 --only-binary=:all:
+pandas==2.2.2 --only-binary=:all:
+pillow==10.3.0 --only-binary=:all:
+# pyarrow==16.1.0 --only-binary=:all:   # only if you actually use it
